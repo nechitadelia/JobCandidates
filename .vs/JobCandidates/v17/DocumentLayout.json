@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Repo\\JobCandidates\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|d:\\repo\\jobcandidates\\jobcandidates\\repositories\\jobcandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|solutionrelative:jobcandidates\\repositories\\jobcandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|d:\\repo\\jobcandidates\\jobcandidates\\models\\jobcandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|solutionrelative:jobcandidates\\models\\jobcandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|d:\\repo\\jobcandidates\\jobcandidates\\interfaces\\ijobcandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|solutionrelative:jobcandidates\\interfaces\\ijobcandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|d:\\repo\\jobcandidates\\jobcandidates\\dtos\\jobcandidatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|solutionrelative:jobcandidates\\dtos\\jobcandidatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|d:\\repo\\jobcandidates\\jobcandidates\\controllers\\jobcandidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|solutionrelative:jobcandidates\\controllers\\jobcandidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobCandidate.cs",
+              "DocumentMoniker": "D:\\Repo\\JobCandidates\\JobCandidates\\Models\\JobCandidate.cs",
+              "RelativeDocumentMoniker": "JobCandidates\\Models\\JobCandidate.cs",
+              "ToolTip": "D:\\Repo\\JobCandidates\\JobCandidates\\Models\\JobCandidate.cs",
+              "RelativeToolTip": "JobCandidates\\Models\\JobCandidate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T19:42:57.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IJobCandidateRepository.cs",
+              "DocumentMoniker": "D:\\Repo\\JobCandidates\\JobCandidates\\Interfaces\\IJobCandidateRepository.cs",
+              "RelativeDocumentMoniker": "JobCandidates\\Interfaces\\IJobCandidateRepository.cs",
+              "ToolTip": "D:\\Repo\\JobCandidates\\JobCandidates\\Interfaces\\IJobCandidateRepository.cs",
+              "RelativeToolTip": "JobCandidates\\Interfaces\\IJobCandidateRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T19:22:24.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JobCandidateRepository.cs",
+              "DocumentMoniker": "D:\\Repo\\JobCandidates\\JobCandidates\\Repositories\\JobCandidateRepository.cs",
+              "RelativeDocumentMoniker": "JobCandidates\\Repositories\\JobCandidateRepository.cs",
+              "ToolTip": "D:\\Repo\\JobCandidates\\JobCandidates\\Repositories\\JobCandidateRepository.cs",
+              "RelativeToolTip": "JobCandidates\\Repositories\\JobCandidateRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T18:41:06.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JobCandidateDto.cs",
+              "DocumentMoniker": "D:\\Repo\\JobCandidates\\JobCandidates\\DTOs\\JobCandidateDto.cs",
+              "RelativeDocumentMoniker": "JobCandidates\\DTOs\\JobCandidateDto.cs",
+              "ToolTip": "D:\\Repo\\JobCandidates\\JobCandidates\\DTOs\\JobCandidateDto.cs",
+              "RelativeToolTip": "JobCandidates\\DTOs\\JobCandidateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T18:18:40.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JobCandidateController.cs",
+              "DocumentMoniker": "D:\\Repo\\JobCandidates\\JobCandidates\\Controllers\\JobCandidateController.cs",
+              "RelativeDocumentMoniker": "JobCandidates\\Controllers\\JobCandidateController.cs",
+              "ToolTip": "D:\\Repo\\JobCandidates\\JobCandidates\\Controllers\\JobCandidateController.cs",
+              "RelativeToolTip": "JobCandidates\\Controllers\\JobCandidateController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T18:03:34.268Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
