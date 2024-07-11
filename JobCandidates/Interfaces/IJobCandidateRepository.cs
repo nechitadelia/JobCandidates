@@ -3,15 +3,18 @@
     public interface IJobCandidateRepository
     {
         //get one candidate from DB by email
-        JobCandidate GetCandidateByEmail(string email);
+        Task<JobCandidate> GetCandidate(string email);
 
         //check if candidate already exists in the DB
-        bool CheckIfCandidateExists(string email);
+        Task<bool> CheckIfCandidateExists(string email);
 
         //add a new candidate to DB
-        void AddCandidate(JobCandidate candidate);
-        
+        bool AddCandidate(CreateJobCandidateDto candidateDto);
+
         //edit an existing candidate to DB
-        void EditCandidate(JobCandidate candidate);
+        Task<bool> EditCandidate(EditJobCandidateDto candidateDto);
+
+        //save changes to DB
+        bool Save();
     }
 }

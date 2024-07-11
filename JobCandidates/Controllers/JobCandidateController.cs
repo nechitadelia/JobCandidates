@@ -4,13 +4,18 @@ namespace JobCandidates
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class JobCandidateController : ControllerBase
+    public class JobCandidateController : Controller
     {
-        public JobCandidateController() { }
+        private readonly IJobCandidateRepository _jobCandidateRepository;
+
+        public JobCandidateController(IJobCandidateRepository jobCandidateRepository)
+        {
+            _jobCandidateRepository = jobCandidateRepository;
+        }
 
         // GET: JobCandidates/AddOrEdit/
         [HttpGet]
-        [ProducesResponseType(200, Type = typeof(IEnumerable<int>))]
+        [ProducesResponseType(200, Type = typeof(JobCandidate))]
         public IActionResult AddOrEdit(int? id)
         {
             if (id == null)

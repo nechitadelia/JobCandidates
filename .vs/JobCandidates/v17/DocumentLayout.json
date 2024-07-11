@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "D:\\Repo\\JobCandidates\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|d:\\repo\\jobcandidates\\jobcandidates\\repositories\\jobcandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|solutionrelative:jobcandidates\\repositories\\jobcandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|d:\\repo\\jobcandidates\\jobcandidates\\controllers\\jobcandidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|solutionrelative:jobcandidates\\controllers\\jobcandidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|d:\\repo\\jobcandidates\\jobcandidates\\dtos\\viewjobcandidatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|solutionrelative:jobcandidates\\dtos\\viewjobcandidatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|d:\\repo\\jobcandidates\\jobcandidates\\models\\jobcandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|solutionrelative:jobcandidates\\models\\jobcandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|d:\\repo\\jobcandidates\\jobcandidates\\interfaces\\ijobcandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|solutionrelative:jobcandidates\\interfaces\\ijobcandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|d:\\repo\\jobcandidates\\jobcandidates\\migrations\\20240711163628_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|solutionrelative:jobcandidates\\migrations\\20240711163628_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|d:\\repo\\jobcandidates\\jobcandidates\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|solutionrelative:jobcandidates\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|d:\\repo\\jobcandidates\\jobcandidates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|solutionrelative:jobcandidates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|d:\\repo\\jobcandidates\\jobcandidates\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|solutionrelative:jobcandidates\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|d:\\repo\\jobcandidates\\jobcandidates\\repositories\\jobcandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC4EDC0A-568F-4418-A849-8ED096D7C3BD}|JobCandidates\\JobCandidates.csproj|solutionrelative:jobcandidates\\repositories\\jobcandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20240711163628_InitialCreate.cs",
-              "DocumentMoniker": "D:\\Repo\\JobCandidates\\JobCandidates\\Migrations\\20240711163628_InitialCreate.cs",
-              "RelativeDocumentMoniker": "JobCandidates\\Migrations\\20240711163628_InitialCreate.cs",
-              "ToolTip": "D:\\Repo\\JobCandidates\\JobCandidates\\Migrations\\20240711163628_InitialCreate.cs",
-              "RelativeToolTip": "JobCandidates\\Migrations\\20240711163628_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T16:36:28.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Repo\\JobCandidates\\JobCandidates\\Program.cs",
-              "RelativeDocumentMoniker": "JobCandidates\\Program.cs",
-              "ToolTip": "D:\\Repo\\JobCandidates\\JobCandidates\\Program.cs",
-              "RelativeToolTip": "JobCandidates\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T16:29:02.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "D:\\Repo\\JobCandidates\\JobCandidates\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "JobCandidates\\Data\\DataContext.cs",
-              "ToolTip": "D:\\Repo\\JobCandidates\\JobCandidates\\Data\\DataContext.cs",
-              "RelativeToolTip": "JobCandidates\\Data\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T16:21:17.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Repo\\JobCandidates\\JobCandidates\\appsettings.json",
-              "RelativeDocumentMoniker": "JobCandidates\\appsettings.json",
-              "ToolTip": "D:\\Repo\\JobCandidates\\JobCandidates\\appsettings.json",
-              "RelativeToolTip": "JobCandidates\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-11T16:07:28.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JobCandidate.cs",
-              "DocumentMoniker": "D:\\Repo\\JobCandidates\\JobCandidates\\Models\\JobCandidate.cs",
-              "RelativeDocumentMoniker": "JobCandidates\\Models\\JobCandidate.cs",
-              "ToolTip": "D:\\Repo\\JobCandidates\\JobCandidates\\Models\\JobCandidate.cs",
-              "RelativeToolTip": "JobCandidates\\Models\\JobCandidate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T19:42:57.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "IJobCandidateRepository.cs",
               "DocumentMoniker": "D:\\Repo\\JobCandidates\\JobCandidates\\Interfaces\\IJobCandidateRepository.cs",
               "RelativeDocumentMoniker": "JobCandidates\\Interfaces\\IJobCandidateRepository.cs",
               "ToolTip": "D:\\Repo\\JobCandidates\\JobCandidates\\Interfaces\\IJobCandidateRepository.cs",
               "RelativeToolTip": "JobCandidates\\Interfaces\\IJobCandidateRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T19:22:24.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JobCandidateRepository.cs",
-              "DocumentMoniker": "D:\\Repo\\JobCandidates\\JobCandidates\\Repositories\\JobCandidateRepository.cs",
-              "RelativeDocumentMoniker": "JobCandidates\\Repositories\\JobCandidateRepository.cs",
-              "ToolTip": "D:\\Repo\\JobCandidates\\JobCandidates\\Repositories\\JobCandidateRepository.cs",
-              "RelativeToolTip": "JobCandidates\\Repositories\\JobCandidateRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T18:41:06.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ViewJobCandidateDto.cs",
-              "DocumentMoniker": "D:\\Repo\\JobCandidates\\JobCandidates\\DTOs\\ViewJobCandidateDto.cs",
-              "RelativeDocumentMoniker": "JobCandidates\\DTOs\\ViewJobCandidateDto.cs",
-              "ToolTip": "D:\\Repo\\JobCandidates\\JobCandidates\\DTOs\\ViewJobCandidateDto.cs",
-              "RelativeToolTip": "JobCandidates\\DTOs\\ViewJobCandidateDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T18:18:40.841Z",
+              "WhenOpened": "2024-07-11T16:51:29.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "JobCandidateController.cs",
-              "DocumentMoniker": "D:\\Repo\\JobCandidates\\JobCandidates\\Controllers\\JobCandidateController.cs",
-              "RelativeDocumentMoniker": "JobCandidates\\Controllers\\JobCandidateController.cs",
-              "ToolTip": "D:\\Repo\\JobCandidates\\JobCandidates\\Controllers\\JobCandidateController.cs",
-              "RelativeToolTip": "JobCandidates\\Controllers\\JobCandidateController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA/AAAA",
+              "Title": "JobCandidateRepository.cs",
+              "DocumentMoniker": "D:\\Repo\\JobCandidates\\JobCandidates\\Repositories\\JobCandidateRepository.cs",
+              "RelativeDocumentMoniker": "JobCandidates\\Repositories\\JobCandidateRepository.cs",
+              "ToolTip": "D:\\Repo\\JobCandidates\\JobCandidates\\Repositories\\JobCandidateRepository.cs",
+              "RelativeToolTip": "JobCandidates\\Repositories\\JobCandidateRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T18:03:34.268Z",
+              "WhenOpened": "2024-07-10T18:41:06.232Z",
               "EditorCaption": ""
             }
           ]

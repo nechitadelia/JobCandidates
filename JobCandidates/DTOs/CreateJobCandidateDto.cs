@@ -2,7 +2,7 @@
 
 namespace JobCandidates
 {
-    public class ViewJobCandidateDto
+    public class CreateJobCandidateDto
     {
         [Key]
         [MaxLength(100)]
