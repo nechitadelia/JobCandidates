@@ -1,4 +1,6 @@
 
+using Microsoft.EntityFrameworkCore;
+
 namespace JobCandidates
 {
     public class Program
@@ -8,12 +10,15 @@ namespace JobCandidates
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            IConfiguration configuration = builder.Configuration;
-
             builder.Services.AddControllers();
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddDbContext<DataContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("CandidatesConnection"));
+            });
 
             //dependency injection
             builder.Services.AddScoped<IJobCandidateRepository, JobCandidateRepository>();

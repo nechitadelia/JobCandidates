@@ -1,14 +1,13 @@
-﻿using System.Data.SqlClient;
-
+﻿
 namespace JobCandidates
 {
     public class JobCandidateRepository : IJobCandidateRepository
     {
-        private readonly IConfiguration _configuration;
+        private readonly DataContext _context;
 
-        public JobCandidateRepository(IConfiguration configuration) 
+        public JobCandidateRepository(DataContext context) 
         {
-            _configuration = configuration;
+            _context = context;
         }
 
         public JobCandidate GetCandidateByEmail(string email)
@@ -29,20 +28,6 @@ namespace JobCandidates
         public void EditCandidate(JobCandidate candidate)
         {
             throw new NotImplementedException();
-        }
-
-        public void AddOrEdit()
-        {
-            var connectionString = _configuration.GetConnectionString("CandidatesConnection");
-
-            using(SqlConnection sqlConnection = new SqlConnection(connectionString))
-            {
-                sqlConnection.Open();
-                SqlCommand command = new SqlCommand("CandidateAddOrEdit", sqlConnection);
-                command.CommandType = System.Data.CommandType.StoredProcedure;
-                //command.Parameters.AddWithValue();
-                command.ExecuteNonQuery();
-            }
         }
     }
 }
