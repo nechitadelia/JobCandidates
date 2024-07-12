@@ -1,6 +1,5 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace JobCandidates
 {
@@ -16,7 +15,9 @@ namespace JobCandidates
         //get one candidate from DB by email
         public async Task<JobCandidate> GetCandidate(string email)
         {
-            return await _context.JobCandidates.Where(c => c.Email == email).FirstAsync();
+            JobCandidate candidate = await _context.JobCandidates.Where(c => c.Email == email).FirstAsync();
+
+            return candidate;
         }
 
         //check if candidate already exists in the DB
@@ -34,8 +35,8 @@ namespace JobCandidates
                 FirstName = candidateDto.FirstName,
                 LastName = candidateDto.LastName,
                 PhoneNumber = candidateDto.PhoneNumber,
-                //StartTimeInterval = candidateDto.StartTimeInterval,
-                //EndTimeInterval = candidateDto.EndTimeInterval,
+                StartTimeInterval = ConvertTime(candidateDto.StartTimeInterval),
+                EndTimeInterval = ConvertTime(candidateDto.EndTimeInterval),
                 LinkedInProfileURL = candidateDto.LinkedInProfileURL,
                 GitHubProfileURL = candidateDto.GitHubProfileURL,
                 TextComment = candidateDto.TextComment
@@ -55,8 +56,8 @@ namespace JobCandidates
                 candidate.FirstName = candidateDto.FirstName;
                 candidate.LastName = candidateDto.LastName;
                 candidate.PhoneNumber = candidateDto.PhoneNumber;
-                //candidate.StartTimeInterval = ConvertTime(candidateDto.StartTimeInterval);
-                //candidate.EndTimeInterval = ConvertTime(candidateDto.EndTimeInterval);
+                candidate.StartTimeInterval = ConvertTime(candidateDto.StartTimeInterval);
+                candidate.EndTimeInterval = ConvertTime(candidateDto.EndTimeInterval);
                 candidate.LinkedInProfileURL = candidateDto.LinkedInProfileURL;
                 candidate.GitHubProfileURL = candidateDto.GitHubProfileURL;
                 candidate.TextComment = candidateDto.TextComment;
@@ -65,10 +66,19 @@ namespace JobCandidates
             return Save();
         }
 
-        //convert time
-        private TimeOnly ConvertTime(TimeOnly timeOnly)
+        //convert time format HH:mm:ss
+        private TimeOnly ConvertTime(string timeString)
         {
-            return new TimeOnly(timeOnly.Hour, timeOnly.Minute);
+            if (string.IsNullOrEmpty(timeString))
+            {
+                return new TimeOnly(0, 0, 0);
+            }
+
+            int hour = int.Parse(timeString.Substring(0, 2));
+            int minute = int.Parse(timeString.Substring(3, 2));
+            int second = int.Parse(timeString.Substring(6, 2));
+
+            return new TimeOnly(hour, minute, second);
         }
 
         //save changes to DB

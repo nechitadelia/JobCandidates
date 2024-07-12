@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Web;
 
 namespace JobCandidates
 {
@@ -24,10 +25,12 @@ namespace JobCandidates
 
             if (!string.IsNullOrEmpty(email))
             {
-                if (!(await _jobCandidateRepository.CheckIfCandidateExists(email)))
+                string decodedEmail = HttpUtility.UrlDecode(email);
+
+                if (!(await _jobCandidateRepository.CheckIfCandidateExists(decodedEmail)))
                     return NotFound();
 
-                candidate = await _jobCandidateRepository.GetCandidate(email);
+                candidate = await _jobCandidateRepository.GetCandidate(decodedEmail);
 
                 if(!ModelState.IsValid)
                     return BadRequest(ModelState);
