@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\Repo\\JobCandidates\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1EBA822C-F0BE-4D1B-896E-E5A4E6AC2E71}|JobCandidates.Tests\\JobCandidates.Tests.csproj|d:\\repo\\jobcandidates\\jobcandidates.tests\\controllertests\\jobcandidatecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBA822C-F0BE-4D1B-896E-E5A4E6AC2E71}|JobCandidates.Tests\\JobCandidates.Tests.csproj|solutionrelative:jobcandidates.tests\\controllertests\\jobcandidatecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1EBA822C-F0BE-4D1B-896E-E5A4E6AC2E71}|JobCandidates.Tests\\JobCandidates.Tests.csproj|d:\\repo\\jobcandidates\\jobcandidates.tests\\repositorytests\\jobcandidaterepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EBA822C-F0BE-4D1B-896E-E5A4E6AC2E71}|JobCandidates.Tests\\JobCandidates.Tests.csproj|solutionrelative:jobcandidates.tests\\repositorytests\\jobcandidaterepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,25 +23,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JobCandidateControllerTests.cs",
-              "DocumentMoniker": "D:\\Repo\\JobCandidates\\JobCandidates.Tests\\ControllerTests\\JobCandidateControllerTests.cs",
-              "RelativeDocumentMoniker": "JobCandidates.Tests\\ControllerTests\\JobCandidateControllerTests.cs",
-              "ToolTip": "D:\\Repo\\JobCandidates\\JobCandidates.Tests\\ControllerTests\\JobCandidateControllerTests.cs",
-              "RelativeToolTip": "JobCandidates.Tests\\ControllerTests\\JobCandidateControllerTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T19:27:40.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "JobCandidateRepositoryTests.cs",
               "DocumentMoniker": "D:\\Repo\\JobCandidates\\JobCandidates.Tests\\RepositoryTests\\JobCandidateRepositoryTests.cs",
               "RelativeDocumentMoniker": "JobCandidates.Tests\\RepositoryTests\\JobCandidateRepositoryTests.cs",
               "ToolTip": "D:\\Repo\\JobCandidates\\JobCandidates.Tests\\RepositoryTests\\JobCandidateRepositoryTests.cs",
               "RelativeToolTip": "JobCandidates.Tests\\RepositoryTests\\JobCandidateRepositoryTests.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAYwAoAAAABAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwC8AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-12T18:18:46.121Z",
               "EditorCaption": ""
@@ -58,13 +41,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "JobCandidateRepository.cs",
               "DocumentMoniker": "D:\\Repo\\JobCandidates\\JobCandidates\\Repositories\\JobCandidateRepository.cs",
               "RelativeDocumentMoniker": "JobCandidates\\Repositories\\JobCandidateRepository.cs",
               "ToolTip": "D:\\Repo\\JobCandidates\\JobCandidates\\Repositories\\JobCandidateRepository.cs",
               "RelativeToolTip": "JobCandidates\\Repositories\\JobCandidateRepository.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAgwEAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-12T19:13:31.757Z",
               "EditorCaption": ""
