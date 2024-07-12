@@ -2,7 +2,7 @@
 
 namespace JobCandidates
 {
-    public class CreateJobCandidateDto
+    public class JobCandidateDto
     {
         [Key]
         [MaxLength(100)]
@@ -13,8 +13,8 @@ namespace JobCandidates
         public string LastName { get; set; }
         [MaxLength(50)]
         public string? PhoneNumber { get; set; }
-        public TimeOnly StartTimeInterval { get; set; }
-        public TimeOnly EndTimeInterval { get; set; }
+        //public TimeOnly StartTimeInterval { get; set; }
+        //public TimeOnly EndTimeInterval { get; set; }
         [MaxLength(255)]
         public string? LinkedInProfileURL { get; set; }
         [MaxLength(255)]

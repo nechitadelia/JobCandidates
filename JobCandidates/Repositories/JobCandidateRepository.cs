@@ -1,5 +1,6 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace JobCandidates
 {
@@ -25,7 +26,7 @@ namespace JobCandidates
         }
 
         //add a new candidate to DB
-        public bool AddCandidate(CreateJobCandidateDto candidateDto)
+        public bool AddCandidate(JobCandidateDto candidateDto)
         {
             JobCandidate candidate = new JobCandidate
             {
@@ -33,8 +34,8 @@ namespace JobCandidates
                 FirstName = candidateDto.FirstName,
                 LastName = candidateDto.LastName,
                 PhoneNumber = candidateDto.PhoneNumber,
-                StartTimeInterval = candidateDto.StartTimeInterval,
-                EndTimeInterval = candidateDto.EndTimeInterval,
+                //StartTimeInterval = candidateDto.StartTimeInterval,
+                //EndTimeInterval = candidateDto.EndTimeInterval,
                 LinkedInProfileURL = candidateDto.LinkedInProfileURL,
                 GitHubProfileURL = candidateDto.GitHubProfileURL,
                 TextComment = candidateDto.TextComment
@@ -45,7 +46,7 @@ namespace JobCandidates
         }
 
         //edit an existing candidate to DB
-        public async Task<bool> EditCandidate(EditJobCandidateDto candidateDto)
+        public async Task<bool> EditCandidate(JobCandidateDto candidateDto)
         {
             JobCandidate candidate = await GetCandidate(candidateDto.Email);
 
@@ -54,17 +55,20 @@ namespace JobCandidates
                 candidate.FirstName = candidateDto.FirstName;
                 candidate.LastName = candidateDto.LastName;
                 candidate.PhoneNumber = candidateDto.PhoneNumber;
-                candidate.StartTimeInterval = candidateDto.StartTimeInterval;
-                candidate.EndTimeInterval = candidateDto.EndTimeInterval;
+                //candidate.StartTimeInterval = ConvertTime(candidateDto.StartTimeInterval);
+                //candidate.EndTimeInterval = ConvertTime(candidateDto.EndTimeInterval);
                 candidate.LinkedInProfileURL = candidateDto.LinkedInProfileURL;
                 candidate.GitHubProfileURL = candidateDto.GitHubProfileURL;
                 candidate.TextComment = candidateDto.TextComment;
-
-                bool result = Save();
-                if (result == false) { return false; }
             }
 
-            return true;
+            return Save();
+        }
+
+        //convert time
+        private TimeOnly ConvertTime(TimeOnly timeOnly)
+        {
+            return new TimeOnly(timeOnly.Hour, timeOnly.Minute);
         }
 
         //save changes to DB

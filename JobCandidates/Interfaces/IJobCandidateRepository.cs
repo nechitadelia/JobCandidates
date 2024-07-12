@@ -9,10 +9,10 @@
         Task<bool> CheckIfCandidateExists(string email);
 
         //add a new candidate to DB
-        bool AddCandidate(CreateJobCandidateDto candidateDto);
+        bool AddCandidate(JobCandidateDto candidateDto);
 
         //edit an existing candidate to DB
-        Task<bool> EditCandidate(EditJobCandidateDto candidateDto);
+        Task<bool> EditCandidate(JobCandidateDto candidateDto);
 
         //save changes to DB
         bool Save();
